@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange"
+    tools:context="com.revanth.basicrootchecker.MainActivity">
+
+    <com.github.ybq.android.spinkit.SpinKitView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/spin_kit"
+        style="@style/SpinKitView.Large.CubeGrid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:SpinKit_Color="@color/white"
+        android:layout_above="@id/check"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="35dp"/>
+
+    <Button
+        android:id="@+id/check"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/one"
+        android:layout_centerInParent="true"
+        android:text="@string/root_and_busybox_check" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:text="@string/confirm_root"
+        android:layout_centerInParent="true"
+        android:id="@+id/one" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/busybox_version_info"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_centerInParent="true"
+        android:id="@+id/three"
+        android:layout_below="@id/one"/>
+
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/about"
+       android:layout_centerInParent="true"
+       style="@style/Widget.AppCompat.Button.Borderless"
+       android:id="@+id/about"
+       android:layout_below="@id/three"/>
+
+ <Button
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="@string/rate_us"
+     android:layout_centerInParent="true"
+     style="@style/Widget.AppCompat.Button.Borderless"
+     android:id="@+id/rate"
+     android:layout_below="@id/about"/>
+
+
+</RelativeLayout>

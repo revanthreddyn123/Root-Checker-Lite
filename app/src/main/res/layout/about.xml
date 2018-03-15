@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about1"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:id="@+id/about1"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about2"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:id="@+id/about2"
+        android:layout_below="@id/about1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about3"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:id="@+id/about3"
+        android:layout_below="@id/about2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about4"
+        android:textColor="@color/colorPrimary"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="license_view"
+        android:layout_margin="10dp"
+        android:id="@+id/about4"
+        android:layout_below="@id/about3"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about5"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:id="@+id/about5"
+        android:layout_below="@id/about4"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:id="@+id/about_back"
+        android:onClick="about_back"
+        android:layout_below="@id/about5"
+        android:layout_centerHorizontal="true"
+        android:text="@string/back"/>
+
+
+</RelativeLayout>
