@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Home\.gradle\caches\transforms-1\files-1.1\Android-SpinKit-1.1.0.aar\9cb9d9366c0342b2c969f43233ac3634\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="21c0f1b0de29bfe601028757c5cb125c343f5164">
+        <dex dex="C:\Users\Home\ApkProjects\BasicRootChecker\app\build\intermediates\transforms\preDex\release\2.jar" />
+    </item>
+
+</items>
